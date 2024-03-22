@@ -1,0 +1,112 @@
+.contactme{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactme .p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contactme .buttontwo{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contactme .buttontwo:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.footer .p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex;
+    
+}
+
+.social .a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 50%;
+    margin: 50px 30px;
+    color:#f9004d;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.social .a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+
+}
+
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+@media (max-width:640px){
+    .contactme .p{
+        font-size: 20px;
+        text-align: center;
+    }
+     .footer .p{
+        font-size: 25px;
+     }
+     
+ footer .pera{
+ padding-left: 50px;
+ padding-right: 50px;
+ text-align: center;
+ color: #fff;
+ }
+      }
+   
+ footer .pera{
+    text-align: center;
+ color: #fff;
+ }

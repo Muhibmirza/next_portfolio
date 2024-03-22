@@ -1,0 +1,134 @@
+
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(
+        to bottom,
+        rgba(88, 47, 47, 0),
+        rgba(0,0,0, 100)
+      ), url("../../../../public/assests/portfolio.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 45px;
+     padding-left: 8%;
+     /* padding-right: 8%; */
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.span{
+    color: #f9004d;
+    
+}
+
+.nav .ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.nav .ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav .ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+
+.btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+
+}
+.off{
+    background-color: #f9004d;
+    border: none;
+    visibility: hidden;
+}
+.off:hover{
+    background-color: #f9004d;
+    outline: none;
+    border: none;
+}
+.btn:hover ,.off{
+    transform: scale(1.2);
+    
+}
+
+
+/* @media (max-width:990px){
+  .hero{
+     margin-left: 20px;
+     
+  }
+} */
+.menue_ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ .menue_ul li{
+    list-style-type: none;
+   
+}
+
+ .menue_ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ .menue_ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+
+.body{
+    background-color: #000 !important;
+}
+.Title{
+    display: flex;
+    align-items: baseline;
+    background-color: #000 !important;
+    padding: 10px 20px;
+    border-radius: 100px;
+
+}
+
+
+/* responsive */
+@media (max-width:873px){
+    .nav .ul ,.btn{
+        display: none;
+    }
+    .off{
+        visibility: visible;
+    }
+    .nav{
+        
+     padding-right: 8%;
+    }
+}
